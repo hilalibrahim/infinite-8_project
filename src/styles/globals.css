@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Rectangle 4134532 */
+.button{
+box-sizing: border-box;
+font-family: "Orbitron", sans-serif;
+font-weight: 800;
+position: absolute;
+width: 200px;
+height: 53.76px;
+font-size: 15px;
+color: #0a0a0a;
+top:58%;
+
+background: linear-gradient(180deg, #FFFFFF 0%, #F7C891 8.5%, #F3AC59 12.75%, #EC6615 77%, #944617 100%);
+border: 1px solid #35241C;
+border-radius: 6px;
+}
+.button:hover{
+  background: linear-gradient(180deg, #FFFFFF 0%, #fd9f34 8.5%, #dc7908 12.75%, #EC6615 77%, #944617 100%);
+
+}
+
+.levelup{
+
+position: absolute;
+width: 525px;
+height: 94px;
+font-family: "Orbitron", sans-serif;
+
+top: 12%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+line-height: 51px;
+/* or 64% */
+
+background: radial-gradient(47.55% 47.55% at 50% 14.71%, #FFF4C0 0.07%, #FFE02E 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+
+text-shadow: 0px 0px 16px #F3BA2F;
+
+}
+.desi{
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  padding-bottom: 20px;
+}
+.para1{
+font-size: 25px;
+}
+.rewards{
+  font-weight: 700;
+}
+
+@media screen and (max-width:768px) {
+  .levelup{
+    top:15%
+  }
+  .paradiv{
+    font-size: 6px;
+    padding-top: 10%;
+  }
+  .button{
+    font-weight: 800;
+position: absolute;
+width: 100px;
+height: 40px;
+font-size: 8px;
+top: 65%;
+  }
+  .para1{
+    font-size: 10px;
+  }
+  .parag{
+    font-size: 10px;
+  }
+}
