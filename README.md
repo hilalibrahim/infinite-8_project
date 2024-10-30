@@ -1,6 +1,6 @@
 ## Overview
 
-The Infinite-8 project is an interactive web application that showcases popup animations for user notifications, specifically for Level Up achievements and Reward announcements. This project aims to provide a delightful user experience through visually appealing animations, utilizing React and GSAP for smooth transitions and interactions.
+The Infinite-8 project is an interactive web application that showcases popup animations  specifically for Level Up achievements and Reward announcements. This project aims to provide a delightful user experience through visually appealing animations, utilizing React and GSAP for smooth transitions and interactions.
 
 ## Features
 
